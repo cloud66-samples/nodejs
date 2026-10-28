@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cypress/base:8
+      - image: cimg/node:22.23.4-browsers
     steps:
       - checkout
       - restore_cache: # special step to restore the dependency cache 

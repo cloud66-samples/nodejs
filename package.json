@@ -5,7 +5,7 @@
   "scripts": {
     "start:watch": "nodemon ./bin/www --ignore public/",
     "start:dev": "node ./bin/www",
-    "debug": "node debug ./bin/www",
+    "debug": "node inspect ./bin/www",
     "start": "NODE_ENV=production node ./bin/www",
     "start:production": "NODE_ENV=production node ./bin/www",
     "lint": "eslint ./app.js routes",
@@ -20,7 +20,7 @@
     "test:unit:watch": "jest test/unit --watch"
   },
   "engines": {
-    "node": ">=8.9.3"
+    "node": "22.x"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -44,7 +44,7 @@
     "eslint-plugin-node": "^6.0.0",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
-    "jest": "^22.4.0",
+    "jest": "^30.5.2",
     "nodemon": "^1.18.9",
     "supertest": "^3.0.0",
     "yargs": "^11.0.0"

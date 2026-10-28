@@ -20,7 +20,7 @@ You can see a hosted version of `The node.js example app` on <a href="https://th
 
 ## Requirements
 
-* Node 8
+* Node 22
 * Git
 * Contentful CLI (only for write access)
 
